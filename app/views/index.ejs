@@ -8,5 +8,10 @@
         <form action="/pdf" method="POST">
             <input type="submit" value="Enviar">
         </form>
+        <% if(validacao.length > 0){%>
+            <div>
+                <p><%=validacao%></p>
+            </div>
+        <% } %>
     </body>
 </html>
