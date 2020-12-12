@@ -6,7 +6,8 @@
     <body>
         <h1>Bem Vindo</h1>
         <form action="/pdf" method="POST">
-            <textarea name="texto"></textarea>
+            <input name="nome" placeholder="nome" />
+            <textarea name="descricao" placeholder="descrição"></textarea>
             <input type="submit" value="Enviar">
         </form>
         <% if(validacao.length > 0){%>
