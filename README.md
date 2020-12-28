@@ -1,2 +1,0 @@
-# geradorPdf
-gerar pdf
