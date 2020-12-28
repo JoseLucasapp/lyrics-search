@@ -14,7 +14,6 @@
 .lyrics{
     width: 80%;
     background-color: blueviolet;
-    text-align: center;
 }
 .search input{
     margin-top: 2%;
@@ -31,6 +30,15 @@
     font-weight: bold;
 }
 .lyrics p{
-    margin-top: 5%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 3%;
     font-size: 25px;
+    background-color: red;
+    width: 50%;
+}
+#music_title{
+    margin-top: 1%;
+    background-color: saddlebrown;
+    font-weight: bold;
 }

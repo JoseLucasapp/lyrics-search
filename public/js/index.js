@@ -8,14 +8,14 @@ api = async()=>{
     const band = document.querySelector('#band');
     const music = document.querySelector('#music');
     const lyrics_space = document.querySelector('#lyrics');
-    const music_space = document.querySelector('#music');
+    const music_space = document.querySelector('#music_title');
     lyrics_space.innerHTML='<div id="lyrics">Loading</div>';
     try{
         const buscar = await searchLyrics(band.value, music.value);
         const res = await buscar.json();
         if(res.lyrics){
             lyrics_space.innerHTML = res.lyrics;
-            music_space.innerHTML = `Band/Singer: ${band.value} Music: ${music.value}`;
+            music_space.innerHTML = `${band.value}/${music.value}`;
             band.value = '';
             music.value = '';
         }
