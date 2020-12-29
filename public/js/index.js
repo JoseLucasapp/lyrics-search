@@ -42,3 +42,15 @@ api = async()=>{
 searchLyrics = async(band, music)=>{
     return await fetch(`https://api.lyrics.ovh/v1/${band}/${music}`)
 }
+
+//colors
+const color1 = document.querySelector('#color1');
+const color2 = document.querySelector('#color2');
+const color3 = document.querySelector('#color3');
+const change_btn = document.querySelector('#change_btn');
+
+change_btn.addEventListener('click', ()=>{
+    document.getElementById('root').style.backgroundColor = color1.value;
+    document.getElementById('search').style.backgroundColor = color2.value;
+    document.getElementById('root').style.color = color3.value;
+});

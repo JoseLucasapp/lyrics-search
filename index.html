@@ -7,12 +7,19 @@
         <link rel="stylesheet" type="text/css" href="./public/css/index.css" />
     </head>
     <body>
-        <div class="root">
-            <div class="search">
+        <div class="root" id="root">
+            <div class="search" id="search">
                 <p>Search music lyrics here</p>
                 <input id="band" type="text" placeholder="band or singer" />
                 <input id="music" type="text" placeholder="music" />
                 <button id="search_btn">SEARCH</button>
+                <div class="color">
+                    <p>Change the colors</p>
+                    <input id="color1" type="text" placeholder="Color 1" />
+                    <input id="color2" type="text" placeholder="Color 2" />
+                    <input id="color3" type="text" placeholder="Font color">
+                    <button id="change_btn">CHANGE</button>
+                </div>
             </div>
             <div class="lyrics">
                 <p id="music_title"></p>
