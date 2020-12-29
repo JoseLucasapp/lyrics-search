@@ -6,14 +6,20 @@
     height: 100%;
     justify-content: space-between;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: slateblue;
 }
 .search{
     width: 20%;
-    background-color: aqua;
+    background-color: steelblue;
+}
+.search p{
+    margin-left: 2%;
+    margin-top: 3%;
+    font-size: 25px;
+    font-weight: bold;
 }
 .lyrics{
     width: 80%;
-    background-color: blueviolet;
 }
 .search input{
     margin-top: 2%;
@@ -31,14 +37,12 @@
 }
 .lyrics p{
     text-align: center;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 3%;
-    font-size: 25px;
-    background-color: red;
-    width: 50%;
+    font-size: 20px;
+    width: 60%;
 }
 #music_title{
     margin-top: 1%;
-    background-color: saddlebrown;
     font-weight: bold;
 }
