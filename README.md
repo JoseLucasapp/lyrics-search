@@ -3,6 +3,7 @@
 <p align='center'>
   <h3>About</h3>
   <p>It is a simple website where the user searches for a band or singer and the name of the song and receives the lyrics.</p>
+  <a href='https://joselucasapp.github.io/lyrics-search/'>Access here</a>
 </p>
 
 <p align='center'>
@@ -24,10 +25,6 @@
 <p align='center'>
   <h3>API Link</h3>
   <a href="https://api.lyrics.ovh/v1/led%20zeppelin/ramble%20on">https://api.lyrics.ovh/v1/led zeppelin/ramble on</a>
-</p>
-
-<p align='center'>
-  <a href='https://joselucasapp.github.io/lyrics-search/'>Access here</a>
 </p>
 
 <p align='center'>
