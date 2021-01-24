@@ -1,0 +1,25 @@
+{
+  "name": "lyrics-search",
+  "version": "1.0.0",
+  "description": "<h1 align='center'>Lyrics Search</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLucasapp/lyrics-search.git"
+  },
+  "keywords": [],
+  "author": "José Lucas <josluc2016@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseLucasapp/lyrics-search/issues"
+  },
+  "homepage": "https://github.com/JoseLucasapp/lyrics-search#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
