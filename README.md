@@ -3,7 +3,6 @@
 <p align='center'>
   <h3>About</h3>
   <p>It is a simple website where the user searches for a band or singer and the name of the song and receives the lyrics.</p>
-  <a href='https://testerjl.herokuapp.com/'>Access here</a>
 </p>
 
 <p align='center'>
